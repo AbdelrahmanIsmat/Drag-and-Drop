@@ -2,7 +2,7 @@ import {
   assingValidateInputs,
   handleValidationErrors,
 } from "../utils/validdation/validdation_helpers";
-import { Base } from "./Base.js";
+import { Base } from "./Base";
 import { projectState } from "../store/ProjectState";
 import { autoBind } from "../decorators/autoBind";
 
