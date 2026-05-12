@@ -1,7 +1,7 @@
 import { autoBind } from "../decorators/autoBind";
 import { ProjectRules } from "../store/ProjectRules";
 import { projectState } from "../store/ProjectState";
-import { Base } from "./Base.js";
+import { Base } from "./Base";
 
 export class Project extends Base<HTMLDivElement> {
   private _project: ProjectRules;
