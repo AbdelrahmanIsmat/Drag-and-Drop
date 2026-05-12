@@ -1,6 +1,6 @@
-import { projectStatus } from "../utils/project-status.js";
-import { ListnerType } from "./ListnerType.js";
-import { ProjectRules } from "./ProjectRules.js";
+import { projectStatus } from "../utils/project-status";
+import { ListnerType } from "./ListnerType";
+import { ProjectRules } from "./ProjectRules";
 
 class ProjectState {
   private static _instance: ProjectState;

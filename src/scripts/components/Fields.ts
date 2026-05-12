@@ -1,10 +1,10 @@
 import {
   assingValidateInputs,
   handleValidationErrors,
-} from "../utils/validdation/validdation_helpers.js";
+} from "../utils/validdation/validdation_helpers";
 import { Base } from "./Base.js";
-import { projectState } from "../store/ProjectState.js";
-import { autoBind } from "../decorators/autoBind.js";
+import { projectState } from "../store/ProjectState";
+import { autoBind } from "../decorators/autoBind";
 
 export class Fields extends Base<HTMLFormElement> {
   constructor() {

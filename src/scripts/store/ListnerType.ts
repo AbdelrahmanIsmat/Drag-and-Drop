@@ -1,3 +1,3 @@
-import { ProjectRules } from "./ProjectRules.js";
+import { ProjectRules } from "./ProjectRules";
 
 export type ListnerType = (projects: ProjectRules[]) => void;

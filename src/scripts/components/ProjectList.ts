@@ -1,9 +1,9 @@
-import { autoBind } from "../decorators/autoBind.js";
-import { ProjectRules } from "../store/ProjectRules.js";
-import { projectState } from "../store/ProjectState.js";
-import { projectStatus } from "../utils/project-status.js";
-import { Base } from "./Base.js";
-import { Project } from "./Project.js";
+import { autoBind } from "../decorators/autoBind";
+import { ProjectRules } from "../store/ProjectRules";
+import { projectState } from "../store/ProjectState";
+import { projectStatus } from "../utils/project-status";
+import { Base } from "./Base";
+import { Project } from "./Project";
 
 export class ProjectList extends Base<HTMLDivElement> {
   constructor(private _status: "Initial" | "Active" | "Finished") {

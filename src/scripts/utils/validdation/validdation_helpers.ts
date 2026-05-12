@@ -1,4 +1,4 @@
-import { validation } from "./validation_types.js";
+import { validation } from "./validation_types";
 
 /**
  * @dsec assing validation in inputs

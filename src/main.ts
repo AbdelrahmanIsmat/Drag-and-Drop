@@ -1,6 +1,6 @@
-import { Fields } from "./scripts/components/Fields.js";
-import { ProjectList } from "./scripts/components/ProjectList.js";
-import { Popup } from "./scripts/components/Pupup.js";
+import { Fields } from "./scripts/components/Fields";
+import { ProjectList } from "./scripts/components/ProjectList";
+import { Popup } from "./scripts/components/Pupup";
 import "./sass/main.scss";
 new Fields();
 new ProjectList("Initial");

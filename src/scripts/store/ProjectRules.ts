@@ -1,4 +1,4 @@
-import { projectStatus } from "../utils/project-status.js";
+import { projectStatus } from "../utils/project-status";
 
 export class ProjectRules {
   constructor(
